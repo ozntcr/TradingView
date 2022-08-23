@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 chromeOptions = webdriver.ChromeOptions()
-driver_path="C:\\Users\ozan_\Desktop\Python Projeler\selenium\chromedriver.exe"
+driver_path="chromedriver.exe"
 driver = webdriver.Chrome(driver_path)
 chromeOptions.add_argument("-- incognito")
 chromeOptions.add_argument("-- headless")
